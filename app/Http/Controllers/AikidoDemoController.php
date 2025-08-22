@@ -98,7 +98,7 @@ class AikidoDemoController extends Controller
         $adminData = DB::table('admin_settings')->get();
         
         // Error 3: Hardcodear credenciales
-        $apiKey = "sk_test_51NXJUWLxJYXK8jWNIJAjW6cPMnGkQXAAOsXHIQQOkKCOQm2e1TDnWCIKVkBGRsM0rZOuuGBpuQgJaFMPDlGXYGAB00vnjCXNSP";
+        $apiKey = "sk_test_ejemplo123456789FakeKeyParaDemostracion";
         
         // Error 4: No usar CSRF protection
         // Falta token CSRF en formularios

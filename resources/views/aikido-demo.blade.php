@@ -107,7 +107,7 @@ $userData = $user->toArray(); // Error si $user es null
 $adminData = DB::table('admin_settings')->get();
 
 // Error 3: Hardcodear credenciales
-$apiKey = "sk_test_51NXJUWLxJYXK8jWNIJAjW6cPMnGkQXAAOsXHIQQOkKCOQm2e1TDnWCIKVkBGRsM0rZOuuGBpuQgJaFMPDlGXYGAB00vnjCXNSP";</pre>
+$apiKey = "sk_test_ejemplo123456789FakeKeyParaDemostracion";</pre>
             </div>
             <button class="btn btn-danger" onclick="testEndpoint('/aikido-demo/auth-errors')">Probar Errores de Autenticación</button>
         </div>
